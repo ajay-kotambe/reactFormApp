@@ -1,0 +1,15 @@
+.actual-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-inputs {
+  padding: 2px;
+  margin: 2px;
+}
+
+.childs{
+    padding: 20px;
+}
