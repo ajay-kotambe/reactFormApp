@@ -9,7 +9,7 @@ const ActualForm = () => {
     comment: "",
     isVisible: false,
     Gender: "",
-    cars: [],
+    cars: "",
   });
   //   console.log(formData);
 
@@ -121,6 +121,7 @@ const ActualForm = () => {
             // size={1}
             name="cars"
             id="cars"
+            value={formData.cars}
             onChange={changeHandler}
           >
             <option value="Mercedes">Mercedes</option>
