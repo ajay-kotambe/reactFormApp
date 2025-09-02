@@ -25,10 +25,8 @@ const ActualForm = () => {
 
   const submitHandler = (event) => {
     event.preventDefault();
-    {
-      console.log("Form Submitted...");
-      console.log(formData);
-    }
+    console.log("Form Submitted...");
+    console.log(formData);
   };
 
   return (
