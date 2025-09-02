@@ -27,6 +27,7 @@ const ActualForm = () => {
     event.preventDefault();
     console.log("Form Submitted...");
     console.log(formData);
+    
   };
 
   return (
